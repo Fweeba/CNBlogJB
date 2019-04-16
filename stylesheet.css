@@ -1,5 +1,6 @@
 body {
-  background-color: black
+  background-color: black;
+  background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(89, 89, 89));
 }
 
 #linkbar {
