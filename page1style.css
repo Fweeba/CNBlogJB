@@ -1,0 +1,80 @@
+body {
+  background-color: black
+}
+
+#linkbar {
+    margin: auto;
+    background-color: darkgrey;
+    color: white;
+    width: 95%;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+p {
+    font-family: "arial", Geneva, sans-serif;
+    color: white;
+    margin: 10px;
+  }
+
+li {
+    font-family: "arial", Geneva, sans-serif;
+    color: white;
+    margin: 5px;
+}
+
+h1 {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: gold;
+    background-color: rgb(31, 31, 31);
+    margin: auto;
+    width: 95%;
+}
+
+h2 {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: gold;
+  margin: 5px;
+}
+
+.right {
+    float: right
+}
+
+.left {
+  float: left
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.toptext {
+  margin-top: 80px;
+}
+
+.linkbutton {
+  background-color: rgb(122, 167, 201);
+  border: none;
+  color: white;
+  padding: 3px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.linkbutton:hover {
+  background-color: blue;
+  color: white;
+}
+
+#active {
+  background-color: rgb(55, 55, 55)
+}
